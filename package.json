@@ -1,6 +1,6 @@
 {
   "name": "zcui-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React variant for ZcUI",
   "config": {
     "src": "./src",
