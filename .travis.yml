@@ -8,3 +8,6 @@ cache: yarn
 cache:
   directories:
     - node_modules
+after_success:
+  - cat ./coverage/lcov.info | coveralls
+
