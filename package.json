@@ -12,7 +12,7 @@
     "dev": "NODE_ENV=development webpack-dev-server",
     "prod": "npm run clean && NODE_ENV=production webpack",
     "test:lint": "eslint $npm_package_config_src",
-    "test:unit": "jest $npm_package_config_src"
+    "test:unit": "jest $npm_package_config_src --coverage"
   },
   "repository": {
     "type": "git",
