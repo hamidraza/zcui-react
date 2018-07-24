@@ -4,4 +4,5 @@ module.exports = {
     '~(.*)$': '<rootDir>/src/$1',
   },
   'setupTestFrameworkScriptFile': '<rootDir>/jest.setup.js',
+  'coverageReporters': ['text', 'lcov'],
 };
